@@ -69,7 +69,7 @@ class ColoredFormatter(Formatter):
         time = colored(datetime.now().strftime("(%H:%M:%S)"), "magenta")
         return " ".join([level, time, message])
 
-logger = getLogger('doge')
+logger = getLogger('tools')
 
 # add level 'success'
 logging.SUCCESS = 25  # 25 is between WARNING(30) and INFO(20)
